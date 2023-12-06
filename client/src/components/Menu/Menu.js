@@ -53,7 +53,31 @@ const Menu = ({ toggle }) => {
         </>
       ) : (
         <>
-          <div>Icons</div>
+          <div className="nav-items">
+            <div className="nav-item">
+              <div className="nav-link">
+                <FcHome title="Home" />
+              </div>
+              <div className="nav-link">
+                <FcAbout title="About" />
+              </div>
+              <div className="nav-link">
+                <FcReadingEbook title="Education" />
+              </div>
+              <div className="nav-link">
+                <FcBiotech title="Tech stack" />
+              </div>
+              <div className="nav-link">
+                <FcVideoProjector title="Projects" />
+              </div>
+              <div className="nav-link">
+                <FcPortraitMode title="Work Exp" />
+              </div>
+              <div className="nav-link">
+                <FcBusinessContact title="Contact" />
+              </div>
+            </div>
+          </div>
         </>
       )}
     </>
